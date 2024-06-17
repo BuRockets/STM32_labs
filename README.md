@@ -68,5 +68,5 @@ GitHub — это облачная платформа для ведения IT-�
 - [Hercules](https://www.hw-group.com/software/hercules-setup-utility)
 - [St-link utility](https://www.st.com/en/development-tools/stsw-link004.html)
 
-P.s. "при скачивании программ с сайта [www.st.com](https://www.st.com/en/development-tools/stm32-software-development-tools/products.html) нужно зарегистрироваться при регистрации не указывайте страну - Россия"
-
+> [!NOTE] 
+> При скачивании программ с сайта [www.st.com](https://www.st.com/en/development-tools/stm32-software-development-tools/products.html) нужно зарегистрироваться при регистрации не указывайте страну - Россия

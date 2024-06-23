@@ -143,6 +143,3 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 ```
 
 Это самое распространённое использование таймера — выполнение каких-либо действий через определённые интервалы времени.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.

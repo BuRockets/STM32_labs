@@ -7,18 +7,19 @@
 **2.** Отрыть Проводник ⇒ в строке адреса написать **cmd** ⇒ нажать **Enter** (откроется командная строка): 
     В командной строке написать команду ***ssh-keygen (Enter, Enter, Enter, ... Всё по дефолту)***
 
-![](./image//cmd.png)
 
-![](./image//keygen.png)
+<img src="./image//cmd.png" width="300" height="200">
+
+<img src="./image//keygen.png" width="300" height="200">
 
 **3.** Открыть PuTTygen:
 - load key (приватный ключ, который без расширения, созданныйssh-keygen) 
 
-![](./image//load.png)
+<img src="./image//load.png" width="300" height="200">
 
 - save private key, without passphrase (имя_ключа.ppk) 
 
-![](./image//save.png)
+<img src="./image//save.png" width="300" height="200">
 
 **4.** Создать аккаунт на сайте [GitHub](https://github.com/):
 - придумать понятный никнейм
@@ -33,7 +34,7 @@
 **6.** Запустить Pageant:
 Если вы получаете такую ошибку:
 
-![](./image//pagenterror.png)
+<img src="./image//pagenterror.png" width="300" height="200">
 
 Тогда ваш Pageant уже запущен и нужно открыть его таким способом:
 
@@ -47,16 +48,16 @@
 
 **Code** ⇒ **Local** ⇒ скопировать URL 
 
-![](./image/code.png)
+<img src="./image//code.png" width="400" height="200">
 
 **8.** Зайти в проводник (где вы хотите разместить папку с лабораторными работами)
 ⇒ щелкнуть правой кнопкой мыши ⇒ **Git Clone...**
 
-![](./image/clone.png)
+<img src="./image//clone.png" width="300" height="200">
 
 ⇒ в URL вставить скопированный с сайта URL ⇒ **Enter** 
 
-![](./image/url.png)
+<img src="./image//url.png" width="300" height="200">
 
 
 ### Если все прошло успешно то поздравляю, вы склонировали репозиторий с лабораторными работами к себе на компьютер !

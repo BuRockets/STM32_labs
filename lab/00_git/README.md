@@ -4,12 +4,21 @@
  - [Putty](https://putty.org.ru) 
  - [TortoiseGit](https://tortoisegit.org) 
  
-**2.** Отрыть Проводник ⇒ нажать правой кнопкой мыши ⇒ открыть gitbash: 
-    В gitbash написать команду ***ssh-keygen (Enter, Enter, Enter, ... Всё по дефолту)***
- 
+**2.** Отрыть Проводник ⇒ в строке адреса написать **cmd** ⇒ нажать **Enter** (откроется командная строка): 
+    В командной строке написать команду ***ssh-keygen (Enter, Enter, Enter, ... Всё по дефолту)***
+
+![](./image//cmd.png)
+
+![](./image//keygen.png)
+
 **3.** Открыть PuTTygen:
 - load key (приватный ключ, который без расширения, созданныйssh-keygen) 
-- save key, without passphrase (имя_ключа.ppk) 
+
+![](./image//load.png)
+
+- save private key, without passphrase (имя_ключа.ppk) 
+
+![](./image//save.png)
 
 **4.** Создать аккаунт на сайте [GitHub](https://github.com/):
 - придумать понятный никнейм
@@ -21,28 +30,40 @@
 Аватар (правй верхний угол) ⇒ **Settings** ⇒ **SSH and GPG keys** (в левом столбце) ⇒ **New SSH key** ⇒ вставить в поле key содержимое публичного ключа (имя_ключа.pub) 
 (за исключением последних символов до знака **=**) ⇒ нажать **add key** 
 
-**6.** Запустить Pageant: 
-**Add Key** (имя_ключа.ppk) 
+**6.** Запустить Pageant:
+Если вы получаете такую ошибку:
+
+![](./image//pagenterror.png)
+
+Тогда ваш Pageant уже запущен и нужно открыть его таким способом:
+
+![](./image//pagent_run.png)
+
+После запуска Pageant добавляем .ppk ключ **Add Key** (имя_ключа.ppk) 
+
+![](./image/add_key.png)
  
 **7.** Зайти на репозиторий с лабораторными работами [STM32_labs](https://github.com/Rocket-B/STM32_labs)
 
 **Code** ⇒ **Local** ⇒ скопировать URL 
- 
+
+![](./image/code.png)
+
 **8.** Зайти в проводник (где вы хотите разместить папку с лабораторными работами)
 ⇒ щелкнуть правой кнопкой мыши ⇒ **Git Clone...**
+
+![](./image/clone.png)
+
 ⇒ в URL вставить скопированный с сайта URL ⇒ **Enter** 
- 
-**9.** 
-- Пуск ⇒ набрать run ⇒ нажать Enter 
-- набрать shell:startup ⇒ нажать Enter 
-- скопировать в папку Автозагрузка ярлык на pageant 
-- правой кнопкой мыши в pageant - Свойства 
-- вкладка Ярлык - Объект, после пути к pageant.exe поставить пробел и в кавычках указать полный путь к имя_ключа.ppk
+
+![](./image/url.png)
+
 
 ### Если все прошло успешно то поздравляю, вы склонировали репозиторий с лабораторными работами к себе на компьютер !
 
 # Как работать с Git:
-Для большего понимания работы Git советуем посмотреть несколько [видео](https://www.youtube.com/playlist?list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb)
+- Для большего понимания работы Git советуем посмотреть несколько [видео](https://youtu.be/dK6wgAixwhE?si=vhiid7AkZty6qdii) про git из плейлиста
+- Или целый [плейлист]((https://www.youtube.com/playlist?list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb)) про гит 
 
 ### Контрольные вопросы по git:
 - Что такое репозиторий?

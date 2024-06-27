@@ -8,18 +8,18 @@
     В командной строке написать команду ***ssh-keygen (Enter, Enter, Enter, ... Всё по дефолту)***
 
 
-<img src="./image//cmd.png" width="300" height="200">
+<img src="./image//cmd.png" width="450" height="300">
 
-<img src="./image//keygen.png" width="300" height="200">
+<img src="./image//keygen.png" width="450" height="300">
 
 **3.** Открыть PuTTygen:
 - load key (приватный ключ, который без расширения, созданныйssh-keygen) 
 
-<img src="./image//load.png" width="300" height="200">
+<img src="./image//load.png" width="450" height="300">
 
 - save private key, without passphrase (имя_ключа.ppk) 
 
-<img src="./image//save.png" width="300" height="200">
+<img src="./image//save.png" width="450" height="300">
 
 **4.** Создать аккаунт на сайте [GitHub](https://github.com/):
 - придумать понятный никнейм
@@ -42,7 +42,7 @@
 
 После запуска Pageant добавляем .ppk ключ **Add Key** (имя_ключа.ppk) 
 
-![](./image/add_key.png)
+<img src="./image//add_key.png" width="450" height="300">
  
 **7.** Зайти на репозиторий с лабораторными работами [STM32_labs](https://github.com/Rocket-B/STM32_labs)
 
@@ -53,11 +53,11 @@
 **8.** Зайти в проводник (где вы хотите разместить папку с лабораторными работами)
 ⇒ щелкнуть правой кнопкой мыши ⇒ **Git Clone...**
 
-<img src="./image//clone.png" width="300" height="200">
+<img src="./image//clone.png" width="450" height="300">
 
 ⇒ в URL вставить скопированный с сайта URL ⇒ **Enter** 
 
-<img src="./image//url.png" width="300" height="200">
+<img src="./image//url.png" width="450" height="300">
 
 
 ### Если все прошло успешно то поздравляю, вы склонировали репозиторий с лабораторными работами к себе на компьютер !

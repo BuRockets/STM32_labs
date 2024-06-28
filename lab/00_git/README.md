@@ -64,7 +64,7 @@
 
 # Как работать с Git:
 - Для большего понимания работы Git советуем посмотреть несколько [видео](https://youtu.be/dK6wgAixwhE?si=vhiid7AkZty6qdii) про git из плейлиста
-- Или целый [плейлист]((https://www.youtube.com/playlist?list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb)) про гит 
+- Или целый [плейлист](https://www.youtube.com/playlist?list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb) про гит 
 
 ### Контрольные вопросы по git:
 - Что такое репозиторий?

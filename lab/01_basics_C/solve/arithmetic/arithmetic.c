@@ -22,6 +22,7 @@ int main(){
     arithmetic_t.quotient = arithmetic_t.a / arithmetic_t.b;
     arithmetic_t.remainder = arithmetic_t.a % arithmetic_t.b;
 
+    printf("\n");
     printf("Сложение (+): %d",arithmetic_t.sum);
     printf("\n");
     printf("Вычитание (-): %d",arithmetic_t.difference);

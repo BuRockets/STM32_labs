@@ -125,3 +125,13 @@
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 ```
+
+
+> [!TIP]
+> Для понимания, что такое [сборка проекта](https://www.youtube.com/watch?v=zhOMC8MaYzU&list=PLhtMaaf_npBzsEQ94eGn5RnuE-VdGVObR&index=10)
+
+> [!TIP]
+> Что такое [ядро](https://www.youtube.com/watch?v=z8AqQY_WKKo&list=PLhtMaaf_npBzsEQ94eGn5RnuE-VdGVObR&index=3 микроконтроллера stm32
+
+> [!TIP]
+> [Система тактирования и сброса](https://www.youtube.com/watch?v=PP94Q0OYLkY&list=PLhtMaaf_npBzsEQ94eGn5RnuE-VdGVObR&index=4)

@@ -26,14 +26,14 @@
 
 Если вы все подключили верно и плата работает, то память будет считана и частично отображаться на экране.
 
-<img src="./images/read_memory.png" width="300" height="250">
+<img src="./images/read_memory.png" width="450" height="375">
 
 После того как мы убедились, что все работает, отключаемся от stm_ки, нажав кнопку **Disconnect from the target**  ![](./images/disconnect.png) и закрываем программу.
 
 > ![NOTE]
 > Возможно, что на вашей новой stm не будет никакой прошивки, когда вы достанете ее из коробки. Тогда при подключении считываемая память будет заполнена FFFFFFFF. Если в дальнейшем вы захотите отчистить свой контроллер от прошивки ⇒ нажимаете **Full chip erase** ![](./images/full_chip_erase.png) и память будет отчищена (заполнена FFFFFFFF).
 
-<img src="./images/chip_erase.png" width="300" height="250">
+<img src="./images/chip_erase.png" width="450" height="375">
 
 ## Первая прошивка платы ##
 

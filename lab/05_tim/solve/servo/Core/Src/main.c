@@ -44,7 +44,7 @@ TIM_HandleTypeDef htim2;
 
 /* USER CODE BEGIN PV */
 int16_t degrees = 0;
-//#define MIN_MAX
+#define MIN_MAX
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -104,7 +104,7 @@ int main(void)
 			  TIM2->CCR1 = i;
 			  HAL_Delay(10);
 			}
-			for(int i = 2500; i < 500; i -= 10){
+			for(int i = 2500; i > 500; i -= 10){
 			  __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_1,i);
 			  HAL_Delay(10);
 			}

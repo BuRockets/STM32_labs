@@ -44,6 +44,7 @@ TIM_HandleTypeDef htim2;
 
 /* USER CODE BEGIN PV */
 int16_t degrees = 0;
+
 #define MIN_MAX
 /* USER CODE END PV */
 
@@ -110,6 +111,7 @@ int main(void)
 			}
 	#else
 		  TIM2->CCR1 = degrees_to_pulse(degrees);
+
 	#endif
     /* USER CODE END WHILE */
 

@@ -46,6 +46,7 @@ I2C_HandleTypeDef hi2c1;
 float destination_a[3] = { 0, };
 float destination_g[3] = { 0, };
 int16_t destination_m[3] = { 0, };
+uint8_t test = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -99,6 +100,8 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  HAL_Delay(10);
+	  test+=1;
 	  MPU_get_gyro(destination_g);
 	  MPU_get_accel(destination_a);
 	  MPU_get_magn(destination_m);
@@ -190,7 +193,6 @@ static void MX_GPIO_Init(void)
 /* USER CODE END MX_GPIO_Init_1 */
 
   /* GPIO Ports Clock Enable */
-  __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
